@@ -1,13 +1,11 @@
-import 'dart:math';
-void main(){
-//teniendo el angulo 9 en grados sexagecimales
-
-double sexa=9;
-double cent,rad;
-cent=(10*sexa)/9;
-rad=(3.141516*sexa)/180;
-
-print('El angulo en grados centecimales es :$cent');
-print('El angulo en radianes es :$rad');
-
+void main() {
+  int segundosTotales = 6500; 
+  int horas = segundosTotales ~/ 3600;                    // División entera para obtener las horas
+  int minutos = (segundosTotales % 3600) ~/ 60;             // División entera para obtener los minutos restantes
+  int segundos = segundosTotales % 60;                      // Obtener los segundos restantes
+  print("Segundos totales: $segundosTotales");
+  print("Horas: $horas");
+  print("Minutos: $minutos");
+  print("Segundos: $segundos");
+  print("Hola");
 }
