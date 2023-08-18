@@ -33,6 +33,9 @@ print(numbre.isEmpty); //verifica si la variable tiene valor asignado o no
 print(numbre.length); //cuenta la cantidad de espacios ocupados por las palabras incluidos los espacios en blanco
 print(numbre.toUpperCase()); //transforma a mayusculas 
 print(numbre.toLowerCase()); //transforma toda la cadena de texto a miniscula
-print(numbre.trim());
-
+print(numbre.trim());//quita los expacion en blanco  de izquierda y derecha
+print(numbre.compareTo("juan gabriel lopez"));  //compara, si sale 0 es completamente igual,si es 1 es parecido; -1 no es igual
+print(numbre.replaceAll("a", "e")); //reamplaza la primer voval por la segunda, pone e en lugar de a
+print(numbre.substring(4,10)); //te manda el rango de la palabra
+print(numbre.contains('Juan')); //verifica si esta el valor tal cual se evaliua
 }
