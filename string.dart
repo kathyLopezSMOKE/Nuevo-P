@@ -38,4 +38,12 @@ print(numbre.compareTo("juan gabriel lopez"));  //compara, si sale 0 es completa
 print(numbre.replaceAll("a", "e")); //reamplaza la primer voval por la segunda, pone e en lugar de a
 print(numbre.substring(4,10)); //te manda el rango de la palabra
 print(numbre.contains('Juan')); //verifica si esta el valor tal cual se evaliua
+print(numbre.startsWith("A")); //verifica tal cual si se encuentra al incio, tambien puedes ponerle un rango de inicio
+print(numbre.endsWith("z")); //verifica tal cual si se encuentra al final, tambien puedes ponerle un rango de inicio
+
+/*
+1.Crear un codigo personalizado de usuario
+2. primero letras del nombre,las 2 ultimas letras del apellido y los ultimos 4 digito del DNI
+----Edez0815----
+*/
 }
