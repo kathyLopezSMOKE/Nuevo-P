@@ -49,7 +49,7 @@ print(nombres);
 nombres.sort();//lo ordena en orf¡den alfabetico o numerido segun el tipo de dato
 print(nombres);
 
-nombres.shuffle();
+nombres.shuffle();//Desordena de manera aleatoria
 print(nombres);
 
 }
